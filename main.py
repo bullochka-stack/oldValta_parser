@@ -3,7 +3,7 @@
 from selenium import webdriver
 import time
 
-PATH = "C:/Users/Компот/Desktop/Python/oldValta parser/msedgedriver.exe"
+PATH = "./msedgedriver.exe"
 URL = 'http://old.valta.ru/catalog/'
 
 
