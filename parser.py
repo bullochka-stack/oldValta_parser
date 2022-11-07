@@ -24,7 +24,6 @@ def get_info():
         lines = [line.strip() for line in file.readlines()]
         driver = webdriver.Edge(PATH)
 
-        global score
         score = 1
 
         for line in lines:
